@@ -16,6 +16,7 @@ struct VideoListView: View {
             Text("More Videos")
                 .foregroundColor(.white)
                 .font(.system(size: 25, weight: .black, design: .rounded))
+                .padding(.leading, 10)
             List {
                 
                 ForEach(Video.allVideos, id: \.id) { video in
