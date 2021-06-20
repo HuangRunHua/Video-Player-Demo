@@ -10,8 +10,11 @@ import SwiftUI
 @main
 struct Enjoy_Video_TogetherApp: App {
     var body: some Scene {
+        
+        let userDefault = UserDefault()
+        
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(userDefault)
         }
     }
 }

@@ -6,16 +6,23 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    
+    
+    @EnvironmentObject var userDefault: UserDefault
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            VideoPlayerView(video: userDefault.selectedVideo).aspectRatio(1.3, contentMode: .fit)
+            VideoListView().environmentObject(userDefault)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(UserDefault())
     }
 }
