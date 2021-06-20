@@ -24,7 +24,7 @@ struct VideoListView: View {
                         .padding(.leading, -13)
                 }
             }
-            .padding(.top, -20)
+            .padding(.top, -10)
             .padding([.leading, .trailing], -20)
         }
     }

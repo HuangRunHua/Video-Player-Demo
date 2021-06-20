@@ -20,7 +20,8 @@ struct VideoCell: View {
     }
     
     var body: some View {
-        HStack(alignment: .top , spacing: 10) {
+        //(alignment: .top , spacing: 10)
+        HStack {
             video.image
                 .resizable()
                 .aspectRatio( contentMode: .fill)

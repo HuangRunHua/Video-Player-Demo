@@ -24,6 +24,7 @@
 		BD5581E6267F1CEF0066DDEE /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5581E5267F1CEF0066DDEE /* VideoListView.swift */; };
 		BD5581E9267F247B0066DDEE /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5581E8267F247B0066DDEE /* VideoPlayerView.swift */; };
 		BD5581EB267F4BE30066DDEE /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5581EA267F4BE20066DDEE /* UserDefault.swift */; };
+		BD5581ED267F75AD0066DDEE /* Windows.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5581EC267F75AC0066DDEE /* Windows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		BD5581E7267F1F170066DDEE /* Enjoy-Video-Together-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Enjoy-Video-Together-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BD5581E8267F247B0066DDEE /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		BD5581EA267F4BE20066DDEE /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		BD5581EC267F75AC0066DDEE /* Windows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Windows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				BD5581DB267F10010066DDEE /* VideoImages.swift */,
 				BD5581E3267F15570066DDEE /* Colors.swift */,
+				BD5581EC267F75AC0066DDEE /* Windows.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				BD5581E6267F1CEF0066DDEE /* VideoListView.swift in Sources */,
 				BD5581DC267F10010066DDEE /* VideoImages.swift in Sources */,
 				BD5581DF267F10BF0066DDEE /* Video.swift in Sources */,
+				BD5581ED267F75AD0066DDEE /* Windows.swift in Sources */,
 				BD5581EB267F4BE30066DDEE /* UserDefault.swift in Sources */,
 				BD5581C2267F06CD0066DDEE /* ContentView.swift in Sources */,
 				BD5581C0267F06CD0066DDEE /* Enjoy_Video_TogetherApp.swift in Sources */,
@@ -365,6 +369,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
@@ -400,6 +405,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
