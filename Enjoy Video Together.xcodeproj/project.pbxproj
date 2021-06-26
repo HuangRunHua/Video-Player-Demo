@@ -28,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD13CFB62681588D0017D468 /* Enjoy Video Together.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Enjoy Video Together.entitlements"; sourceTree = "<group>"; };
 		BD5581BC267F06CD0066DDEE /* Enjoy Video Together.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enjoy Video Together.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5581BF267F06CD0066DDEE /* Enjoy_Video_TogetherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enjoy_Video_TogetherApp.swift; sourceTree = "<group>"; };
 		BD5581C1267F06CD0066DDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		BD5581BE267F06CD0066DDEE /* Enjoy Video Together */ = {
 			isa = PBXGroup;
 			children = (
+				BD13CFB62681588D0017D468 /* Enjoy Video Together.entitlements */,
 				BD5581E7267F1F170066DDEE /* Enjoy-Video-Together-Info.plist */,
 				BD5581BF267F06CD0066DDEE /* Enjoy_Video_TogetherApp.swift */,
 				BD5581C1267F06CD0066DDEE /* ContentView.swift */,
@@ -356,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Enjoy Video Together/Enjoy Video Together.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Enjoy Video Together/Preview Content\"";
@@ -379,7 +382,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OUC.edu.Enjoy-Video-Together";
+				PRODUCT_BUNDLE_IDENTIFIER = "OUC.edd.Enjoy-Video-Together";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -392,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Enjoy Video Together/Enjoy Video Together.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Enjoy Video Together/Preview Content\"";
@@ -415,7 +419,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "OUC.edu.Enjoy-Video-Together";
+				PRODUCT_BUNDLE_IDENTIFIER = "OUC.edd.Enjoy-Video-Together";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
