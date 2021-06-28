@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD38334D2689836A00425DCF /* intro.png in Resources */ = {isa = PBXBuildFile; fileRef = BD38334C2689836A00425DCF /* intro.png */; };
 		BD5581C0267F06CD0066DDEE /* Enjoy_Video_TogetherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5581BF267F06CD0066DDEE /* Enjoy_Video_TogetherApp.swift */; };
 		BD5581C2267F06CD0066DDEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5581C1267F06CD0066DDEE /* ContentView.swift */; };
 		BD5581C4267F06CE0066DDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5581C3267F06CE0066DDEE /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		BD13CFB62681588D0017D468 /* Enjoy Video Together.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Enjoy Video Together.entitlements"; sourceTree = "<group>"; };
+		BD38334C2689836A00425DCF /* intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro.png; sourceTree = "<group>"; };
 		BD5581BC267F06CD0066DDEE /* Enjoy Video Together.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enjoy Video Together.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5581BF267F06CD0066DDEE /* Enjoy_Video_TogetherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enjoy_Video_TogetherApp.swift; sourceTree = "<group>"; };
 		BD5581C1267F06CD0066DDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		BD5581CD267F06FB0066DDEE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BD38334C2689836A00425DCF /* intro.png */,
 				BD5581D8267F0FA30066DDEE /* 那年记忆中的追寻.mp4 */,
 				BD5581D6267F0DB30066DDEE /* 有点甜.mp4 */,
 				BD5581D4267F0D010066DDEE /* Merry Christmas Mr. Lawrence.mp4 */,
@@ -211,6 +214,7 @@
 				BD5581C7267F06CE0066DDEE /* Preview Assets.xcassets in Resources */,
 				BD5581C4267F06CE0066DDEE /* Assets.xcassets in Resources */,
 				BD5581D3267F0BB30066DDEE /* The Truth That You Leave.mp4 in Resources */,
+				BD38334D2689836A00425DCF /* intro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
