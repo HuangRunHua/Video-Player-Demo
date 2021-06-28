@@ -366,6 +366,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Enjoy-Video-Together-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Video Player Demo";
 				INFOPLIST_KEY_CFBundleExecutable = "Enjoy Video Together";
 				INFOPLIST_KEY_CFBundleName = "Enjoy Video Together";
 				INFOPLIST_KEY_CFBundleVersion = 1;
@@ -403,6 +404,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Enjoy-Video-Together-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Video Player Demo";
 				INFOPLIST_KEY_CFBundleExecutable = "Enjoy Video Together";
 				INFOPLIST_KEY_CFBundleName = "Enjoy Video Together";
 				INFOPLIST_KEY_CFBundleVersion = 1;
